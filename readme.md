@@ -1,12 +1,6 @@
-TODO:
-1. Pozbyć się danych odstających - boxploty pewnie pomogą i odrzucanie wartości powyżej 3 kwartyla i poniżej 1(?)
-2. Sprawdzić czy są jakieś braki w danych
-3. Wybrać modele i sprawdzić czy operacje na danych pomogły (ewentualnie sprawdzić różny scoring dla modeli)
+# Przewidywanie popularności artykułów  
+W notatnikach zawartych w repozytorium znajduje się propozycja rozwiązania problemu jakim jest przewidywanie popularności nowych artykułów wstawionych na stronę www.mashable.com.  
+Dane znajdują się pod adresem - https://archive.ics.uci.edu/ml/datasets/Online+News+Popularity. 
 
-<hr>
-Linki:
-
-Boxploty i pozbywanie się outlinerów - https://www.kaggle.com/code/shivamsarawagi/classificationendexam  
-Pozbywanie się brakujących danych i analiza eksploracyjna - https://www.kaggle.com/code/rahatbhambri1/news-popularity-prediction-starter-c33  
-To co wyżej ale inne - https://www.kaggle.com/code/thehapyone/exploratory-analysis-for-online-news-popularity/notebook  
-https://www.kaggle.com/code/sripriya568/prediction-of-online-news-popularity  
+## Metoda  
+Problem został rozważony jako zadanie regresji oraz klasyfikacji, przewidując albo wartość rzeczywistoliczbową przedstawiającą ilość udostępnień artykułu albo klasę popularny/niepopularny. W obydwóch przypadkach sprawdzone zostały 4 modele w celu porównania ich dopasowania. Dokładny opis rozwiązania znajduje się w pliku Dokumentacja.pdf.
